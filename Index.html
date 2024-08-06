@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calorify</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #fff6e9;
+        color: #000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+      }
+
+      .container {
+        max-width: 500px;
+        width: 100%;
+      }
+
+      .app-icon img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+      }
+
+      .app-name {
+        font-size: 3em;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .tagline {
+        font-size: 1.5em;
+        margin-bottom: 30px;
+      }
+
+      .app-store-buttons {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+      }
+
+      .app-store-buttons a {
+        margin: 0 10px;
+      }
+
+      .app-store-buttons img {
+        width: 180px; /* Increased width */
+        height: 55px; /* Increased height */
+      }
+
+      .links {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px; /* Reduced margin to bring closer */
+        width: 100%;
+        max-width: 400px;
+      }
+
+      .links a {
+        color: #000;
+        text-decoration: none;
+        font-size: 1.2em;
+      }
+
+      .links a:hover {
+        text-decoration: underline;
+      }
+
+      .footer {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="app-icon">
+        <img src="splashIcon.png" alt="App Icon" />
+      </div>
+      <div class="app-name">Calorify</div>
+      <div class="tagline">Track your daily calories and macros with AI</div>
+      <div class="app-store-buttons">
+        <a href="https://apps.apple.com" target="_blank">
+          <img src="appStore.png" alt="Download on the App Store" />
+        </a>
+        <a href="https://play.google.com/store" target="_blank">
+          <img src="playStore.png" alt="Get it on Google Play" />
+        </a>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="links">
+        <a href="privacy-policy.html" target="_blank">Privacy Policy</a>
+        <a href="terms-conditions.html" target="_blank">Terms and Conditions</a>
+      </div>
+    </div>
+  </body>
+</html>
